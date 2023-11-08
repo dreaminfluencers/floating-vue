@@ -128,7 +128,7 @@ export default {
 
     async finalContent (value) {
       await this.$nextTick()
-      this.$refs.popper.onResize()
+      this?.$refs?.popper?.onResize()
     },
   },
 
